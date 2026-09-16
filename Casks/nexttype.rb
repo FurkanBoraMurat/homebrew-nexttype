@@ -1,6 +1,6 @@
 cask "nexttype" do
-  version "0.1.0"
-  sha256 "a589ea73bed72ee17064444371162e0522f85a8428cb9dab8b682cb6274aa73c"
+  version "0.1.1"
+  sha256 "146c03afa709f95ef70077b5b148af76a4d487b82d573240beedb605c4e44eb3"
 
   url "https://github.com/FurkanBoraMurat/nexttype-releases/releases/download/v#{version}/NextType_#{version}_universal.dmg"
   name "NextType"
@@ -13,7 +13,7 @@ cask "nexttype" do
   end
 
   auto_updates true
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "NextType.app"
 
