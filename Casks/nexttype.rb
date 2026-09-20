@@ -1,6 +1,6 @@
 cask "nexttype" do
-  version "0.1.2"
-  sha256 "52538ea4443f5b9f3759a5f8388f7dc71ad73d79ffcb037d3adfc1fdf3f3e26f"
+  version "0.1.3"
+  sha256 "5a0af8b0690e04728dbf6aecaae2ee42cdfafbbae400cae35994df9ae87c588b"
 
   url "https://github.com/FurkanBoraMurat/nexttype-releases/releases/download/v#{version}/NextType_#{version}_universal.dmg"
   name "NextType"
